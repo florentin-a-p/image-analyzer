@@ -1,0 +1,38 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.0.2'
+	id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.florentin'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+  // https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j
+  implementation 'net.sourceforge.tess4j:tess4j:5.2.0'
+  implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+  implementation 'com.google.api-client:google-api-client:1.23.0'
+  implementation 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+  implementation 'com.google.apis:google-api-services-drive:v3-rev110-1.23.0'
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'com.h2database:h2'
+	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'org.springframework.boot:spring-boot-starter-test'
+  implementation 'org.springframework:spring-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
