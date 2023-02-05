@@ -3,8 +3,10 @@ This is an image analyzer that allows users to upload an image to Google Drive a
 
 ## Demo
 ### English
+https://user-images.githubusercontent.com/52971362/216832443-117cd074-93d5-43d0-8bbc-3b6a182c8b9e.mov
 
 ### Chinese
+https://user-images.githubusercontent.com/52971362/216832438-0d3444b5-6b2d-47cb-b87f-424a4f824a8a.mov
 
 ## Image Analyzer using the following stacks
 - Java 17, Spring Boot 3.0.2
