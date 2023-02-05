@@ -1,5 +1,5 @@
 ## Image Analyzer
-This is an image analyzer that allows users to upload an image to Google Drive and to extract the text in the image in 2 language options: Simplified Chinese and English. For English text, the words containing letter "o" will be coloured blue. Both the image and the extracted text would be available in a Google Drive folder.
+This is an image analyzer that allows users to upload an image to Google Drive and to extract the text in the image in 2 language options: Simplified Chinese and English. For English text, the words containing letter "o" will be coloured blue. Both the image and the extracted text would be available in a Google Drive folder https://drive.google.com/file/d/1wrRMDckYSUgmHH7_iVRaUsIVrmwlcp6p/view?usp=share_link
 
 ## Demo
 ### English
